@@ -33,8 +33,8 @@ $black: #333
 
 html, body
   position: relative
-  +size(100%)
-  background-color: $blue
+  width: 100%
+  background-color: $yellow
 
 .phone
   +absoluteCenter
@@ -55,6 +55,7 @@ html, body
     margin: 1.2vh 0
   ul
     +verticalCenter
+    margin-bottom: 3vw
     li
       +flexCenter
       list-style: none
@@ -67,10 +68,12 @@ html, body
         color: white
         background-color: $black
   a
-    position: absolute
     font-size: 3.5vw
     bottom: 5vw
 
 @media screen and (min-width: 1024px) // size > 1024px
+  html, body
+    background-color: $blue
+
   .phone
     display: block
