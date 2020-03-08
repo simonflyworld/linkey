@@ -95,6 +95,17 @@ html, body {
   font-family: 'Roboto Mono', monospace;
   font-size: 5.2vw;
   text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .app ul li:hover {
