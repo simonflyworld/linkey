@@ -85,17 +85,24 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 5.2vw;
   width: 72vw;
   height: 13.2vw;
   border: 0.5vw solid #333;
   margin-bottom: 4.2vw;
 }
 
+.app ul li a {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5.2vw;
+  text-decoration: none;
+}
+
 .app ul li:hover {
-  color: white;
   background-color: #333;
+}
+
+.app ul li:hover a {
+  color: white;
 }
 
 .app a {
