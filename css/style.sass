@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono&display=swap')
+
+$yellow: #FFCA28
+$blue: #4461AA
+$black: #333
+
+@mixin size($w, $h:$w)
+  width: $w
+  height: $h
+
+@mixin absoluteCenter
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+@mixin flexCenter
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin verticalCenter
+  display: flex
+  flex-direction: column
+  align-items: center
+
+*, *:before, *:after
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  color: $black
+  user-select: none
+
+html, body
+  position: relative
+  +size(100%)
+  background-color: $blue
+
+.phone
+  +absoluteCenter
+  display: none
+
+.app
+  +size(100%)
+  +absoluteCenter
+  +verticalCenter
+  background-color: $yellow
+  .avatar
+    +size(68vw)
+    margin-top: 5vh
+  h1
+    font-family: 'Caveat', cursive;
+    font-size: 11.5vw
+    letter-spacing: 0.8vw
+    margin: 1.2vh 0
+  ul
+    +verticalCenter
+    li
+      +flexCenter
+      list-style: none
+      font-family: 'Roboto Mono', monospace
+      font-size: 5.2vw
+      +size(72vw, 13.2vw)
+      border: 0.5vw solid $black
+      margin-bottom: 4.2vw
+      &:hover
+        color: white
+        background-color: $black
+  a
+    position: absolute
+    font-size: 3.5vw
+    bottom: 5vw
+
+@media screen and (min-width: 1024px) // size > 1024px
+  .phone
+    display: block

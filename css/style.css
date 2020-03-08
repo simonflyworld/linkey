@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono&display=swap");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #333;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #4461AA;
+}
+
+.phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFCA28;
+}
+
+.app .avatar {
+  width: 68vw;
+  height: 68vw;
+  margin-top: 5vh;
+}
+
+.app h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 11.5vw;
+  letter-spacing: 0.8vw;
+  margin: 1.2vh 0;
+}
+
+.app ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5.2vw;
+  width: 72vw;
+  height: 13.2vw;
+  border: 0.5vw solid #333;
+  margin-bottom: 4.2vw;
+}
+
+.app ul li:hover {
+  color: white;
+  background-color: #333;
+}
+
+.app a {
+  position: absolute;
+  font-size: 3.5vw;
+  bottom: 5vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .phone {
+    display: block;
+  }
+}
