@@ -24,6 +24,10 @@
   </section>
 
   <script>
+    document.onselectstart = () => {return false;}
+		document.ondragstart = () => {return false;}
+		document.oncontextmenu = () => {return false;}
+    
     (function jumpOverUrlBar() {
       window.scrollTo(0, 1);
     })();
