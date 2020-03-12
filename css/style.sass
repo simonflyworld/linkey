@@ -33,9 +33,8 @@ $black: #333
 
 html, body
   position: relative
-  width: 100%
-  height: 100%
-  font-size: 5vw // By switching the root font-size in different media queries to make RWD easiler
+  +size(100%)
+  font-size: 5vw
   text-size-adjust: none
   background-color: $yellow
 
@@ -84,17 +83,14 @@ html, body
 
 @media screen and (min-width: 1025px) // size > 1025px
   html, body
-    font-size: 1vw
     background-color: $blue
 
   .phone
     display: block
-    +size(30rem, auto)
+    +size(6rem, auto)
 
   .app
     +size(19.5rem, 34.3rem)
-    transform: translate(-9.96rem, -18.7rem)
+    transform: scale(0.2) translate(-49rem, -87.4rem)
     ul
-      margin-bottom: 0.2rem
-    .author
-      font-size: 0.01rem
+      margin-bottom: 0.3rem

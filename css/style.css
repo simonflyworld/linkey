@@ -135,24 +135,20 @@ html, body {
 
 @media screen and (min-width: 1025px) {
   html, body {
-    font-size: 1vw;
     background-color: #4461AA;
   }
   .phone {
     display: block;
-    width: 30rem;
+    width: 6rem;
     height: auto;
   }
   .app {
     width: 19.5rem;
     height: 34.3rem;
-    -webkit-transform: translate(-9.96rem, -18.7rem);
-            transform: translate(-9.96rem, -18.7rem);
+    -webkit-transform: scale(0.2) translate(-49rem, -87.4rem);
+            transform: scale(0.2) translate(-49rem, -87.4rem);
   }
   .app ul {
-    margin-bottom: 0.2rem;
-  }
-  .app .author {
-    font-size: 0.01rem;
+    margin-bottom: 0.3rem;
   }
 }
