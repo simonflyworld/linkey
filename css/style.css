@@ -23,6 +23,10 @@ html, body {
   background-color: #FFCA28;
 }
 
+img {
+  pointer-events: none;
+}
+
 .phone {
   position: absolute;
   top: 50%;
