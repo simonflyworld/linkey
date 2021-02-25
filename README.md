@@ -12,4 +12,4 @@
 - 標題使用輕鬆的手寫字體，按鈕字則使用開發辨識度高的程式字體，結合美術設計和編程開發的專業感
 - 排版部分使用 CSS 設定根元素為定製的視窗寬度百分比，並搭配 `rem` 屬性設置達成伸縮響應式設計
 - 使用 `@media query` 做出移動設備和電腦桌面兩種截然不同的內容呈現方式
-- [線上版](https://raychang2017.github.io/linktree-clone/) / [CodePen 連結](https://codepen.io/raychang2017/full/OJVQLMJ)
+- [線上版](https://rayc2045.github.io/linktree-clone/) / [CodePen 連結](https://codepen.io/rayc2045/full/OJVQLMJ)
