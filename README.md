@@ -1,6 +1,8 @@
-#### Linktree (before)[![Photo](https://cdn.dribbble.com/users/3800131/screenshots/10724999/media/fdbc3db71c8b7bc3b469dc944d9b9963.png)](https://linktr.ee/raychang)
+#### Linktree (before)
+[![Photo](https://cdn.dribbble.com/users/3800131/screenshots/10724999/media/fdbc3db71c8b7bc3b469dc944d9b9963.png)](https://linktr.ee/raychang)
 
-#### Linktree Clone[![Photo](https://cdn.dribbble.com/users/3800131/screenshots/10724954/media/529252d97de31baf1548bd817ad6bc1a.png)](https://raychang2017.github.io/linktree-clone/)
+#### Linktree Clone
+[![Photo](https://cdn.dribbble.com/users/3800131/screenshots/10724954/media/529252d97de31baf1548bd817ad6bc1a.png)](https://rayc2045.github.io/linktree-clone/)
 
 # Let’s Make A Linktree Clone (Redesign)
 
