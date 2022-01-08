@@ -31,11 +31,16 @@ $black: #333
   color: $black
   user-select: none
 
+::-webkit-scrollbar
+  width: 0
+
 html, body
-  position: relative
   +size(100%)
   font-size: 5vw
   text-size-adjust: none
+
+body
+  position: relative
   background-color: $yellow
 
 img
@@ -46,6 +51,7 @@ img
   display: none
 
 .app
+  padding: 1.4rem
   +size(100%)
   +absoluteCenter
   +verticalCenter
@@ -53,7 +59,6 @@ img
   overflow-y: scroll
   .avatar
     +size(13rem)
-    margin-top: 1.4rem
     img
       +size(100%)
   h1
@@ -70,6 +75,8 @@ img
       +size(14.4rem, 2.6rem)
       border: 0.1rem solid $black
       margin-bottom: 0.84rem
+      &:last-child
+        margin-bottom: 0
       a
         font-family: 'Roboto Mono', monospace
         font-size: 1rem
@@ -87,7 +94,7 @@ img
 
 // Desktop screen's orientation is portrait
 @media screen and (min-width: 1025px) // size > 1025px
-  html, body
+  body
     background-color: $blue
 
   .phone
